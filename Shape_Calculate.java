@@ -38,7 +38,7 @@ public class Shape_Calculate {
 					System.out.println("Enter radius ");
 
 					try {
-						System.out.println("Area Of Circle is   " + circle.cricle_Calculate_Area(scanner.nextInt()));
+						System.out.println("Area Of Circle is   " + circle.area(scanner.nextInt()));
 
 					} catch (Exception e) {
 						// TODO Auto-generated catch block
@@ -51,7 +51,7 @@ public class Shape_Calculate {
 					System.out.println("Enter radius ");
 					try {
 						System.out.println(
-								" Circumference Of Circle is" + circle.cricle_Circumference(scanner.nextInt()));
+								" Circumference Of Circle is" + circle.circumference(scanner.nextInt()));
 					} catch (Exception e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
@@ -62,7 +62,7 @@ public class Shape_Calculate {
 				case 3: {
 					System.out.println("Enter radius ");
 					try {
-						System.out.println("Volume Of Circle" + circle.cricle_Volume(scanner.nextInt()));
+						System.out.println("Volume Of Circle" + circle.volume(scanner.nextInt()));
 					} catch (Exception e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
